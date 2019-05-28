@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "763960019387",
+    "firebase_url": "https://foodstreet-7a299.firebaseio.com",
+    "project_id": "foodstreet-7a299",
+    "storage_bucket": "foodstreet-7a299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763960019387:android:885740e06c32c790",
+        "android_client_info": {
+          "package_name": "th.in.androidthai.food.street.foodstreet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763960019387-1ri4qjf6dfga642ojh23icbjkqg22fh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.in.androidthai.food.street.foodstreet",
+            "certificate_hash": "99f1de59cbbb9f0ab27aeb63c596235bc843b92a"
+          }
+        },
+        {
+          "client_id": "763960019387-q43so6asla9arh2b32ao4qsn0ok6u11k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBArpqZy1w0xKsdh9pcos0AufPc1Pq_F28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763960019387-q43so6asla9arh2b32ao4qsn0ok6u11k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
