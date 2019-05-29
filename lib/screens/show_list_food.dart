@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'dart:convert';
 
 class ShowListFood extends StatefulWidget {
   @override
@@ -16,8 +17,20 @@ class _ShowListFoodState extends State<ShowListFood> {
     readData();
   }
 
-  void readData() async{
+  void readData() async {
     print('readData Work!!!');
+
+    DatabaseReference databaseReference =
+        firebaseDatabase.reference().child('FoodChild');
+    await databaseReference.once().then((DataSnapshot dataSnapshop) {
+      // print('Data ==> ${dataSnapshop.value}');
+      Map<dynamic, dynamic> values = dataSnapshop.value;
+      values.forEach((key, values){
+        print(values['Name']);
+      });
+     
+
+    });
   }
 
   @override
